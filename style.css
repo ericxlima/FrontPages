@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+
+body {
+	background-image: url("world.png");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.text {
+	font-family: 'Arvo', serif;
+	text-align: center;
+	color: #353839;
+}
+
+.cards_front {
+	border: dashed #170a45 12px;
+	border-radius: 50px;
+	margin-top: 50px;
+	margin-left: 10%;
+	width: 80%;
+}
+h1 {
+	border: solid gray 4px;
+	border-radius: 10px;
+	background-color: white;
+	font-size: 45px;
+	width: 50%;
+	margin-left: 25%; 
+}
+h2 {
+	border: solid gray 4px;
+	border-radius: 10px;
+	background-color: #DCDCDC;
+	margin-left: 30%;
+	width: 40%;
+}
+p {
+	font-size: 30px;
+	background-color: white; 
+	border: solid #DCDCDC 4px;
+	border-radius: 15%;
+	width: 25%;
+	height: 150px;
+	display: inline-block;
+}
